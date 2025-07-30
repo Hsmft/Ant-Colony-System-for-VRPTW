@@ -1,7 +1,6 @@
 # Ant Colony System for the Vehicle Routing Problem with Time Windows (VRPTW)
 
 ![Language](https://img.shields.io/badge/language-C%2B%2B-blue.svg)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repository contains a C++ implementation of an **Ant Colony System (ACS)**, a popular variant of Ant Colony System (ACS), to solve the **Vehicle Routing Problem with Time Windows (VRPTW)**. The algorithm aims to find near-optimal solutions by minimizing the number of vehicles and the total travel distance.
 
@@ -46,17 +45,17 @@ The program is run from the command line with the following arguments:
 ```bash
 ./solver [instance-file-path] [max-execution-time] [max-evaluations]
 ```
-* `instance-file-path`: The path to the problem instance file (e.g., `instances/C101.txt`).
+* `instance-file-path`: The path to the problem instance file (e.g., `instances/800-rh-61.txt`).
 * `max-execution-time`: The maximum run time in seconds. Use `0` for no time limit.
 * `max-evaluations`: The maximum number of objective function evaluations. Use `0` for no limit.
 
 **Example:**
 ```bash
-./solver instances/C101.txt 60 0
+./solver instances/800-rh-61.txt 60 0
 ```
-This command runs the solver on the `C101.txt` instance for a maximum of 60 seconds.
+This command runs the solver on the `800-rh-61.txt` instance for a maximum of 60 seconds.
 
 ---
 
 ## 📄 License
-This project is licensed under the MIT License.
+This project is licensed under the custom **Hesameddin Fathi Non‑Commercial & Academic Co‑Authorship License 1.0**. Please see the [LICENSE](./LICENSE) file for full details.
